@@ -15,7 +15,7 @@ function draw(){
 		fill("WHITE")
 		textAlign(CENTER)
 		text("Press Enter", width/2, height/2);
-		text("Player 1 up= W, down= S", width/2, height/2 +60);
+		text("Player 1 up= 1, down= 2", width/2, height/2 +60);
 		text("Player 2 = arrows", width/2, height/2 +120);
 	}			
 }

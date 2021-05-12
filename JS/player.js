@@ -28,10 +28,10 @@ class player{
     }
     moveY(){
         if(this.player==1){
-            if (keyIsDown(87)) {
+            if (keyIsDown(49)) {
                 this.y+=-this.mov;
             } 
-            if (keyIsDown(83)) {
+            if (keyIsDown(50)) {
                 this.y+=this.mov;
             }
 	    }else{
